@@ -4,8 +4,8 @@ Você está desenvolvendo um programa simples em Java para simular operações b
 > Entrada
 O programa exibirá um menu com as seguintes opções:
 
-> Depositar
-> Sacar, Consultar Saldo, Encerrar.
+> Depositar<br />
+> Sacar, Consultar Saldo, Encerrar.<br />
 > O usuário escolherá uma dessas opções digitando o número correspondente.
 
 > Saída
@@ -13,10 +13,10 @@ Utilizando um switch, o programa realizará a operação escolhida pelo usuário
 
 > Se o usuário escolher:
 
-1: O programa solicitará o valor a ser depositado e atualizará o saldo.
-2: O programa solicitará o valor a ser sacado e verificará se há saldo suficiente.
-3: O programa exibirá o saldo atual da conta.
-0: O programa encerrará.
+1: O programa solicitará o valor a ser depositado e atualizará o saldo.<br />
+2: O programa solicitará o valor a ser sacado e verificará se há saldo suficiente.<br />
+3: O programa exibirá o saldo atual da conta.<br />
+0: O programa encerrará.<br />
 
 -----
 
@@ -28,6 +28,6 @@ Utilizando um switch, o programa realizará a operação escolhida pelo usuário
 O programa solicitará ao usuário que digite o número da conta bancária.
 
 > Saída
-1. O programa utilizará um bloco try-catch para verificar se o número da conta possui exatamente 8 dígitos.
-2. Se o número da conta tiver 8 dígitos, o programa informará que é um número válido.
-3. Se o número da conta não tiver 8 dígitos, o programa lançará uma exceção (por exemplo, IllegalArgumentException) e informará que o número da conta é inválido.
+1. O programa utilizará um bloco try-catch para verificar se o número da conta possui exatamente 8 dígitos. <br />
+2. Se o número da conta tiver 8 dígitos, o programa informará que é um número válido. <br />
+3. Se o número da conta não tiver 8 dígitos, o programa lançará uma exceção (por exemplo, IllegalArgumentException) e  informará que o número da conta é inválido.
