@@ -1,6 +1,9 @@
+// 1 / 5 - Operações Bancárias Simples com Switch
+
+package testesDIO;
 import java.util.Scanner;
 
-public class TesteSimulation {
+public class SimulacaoBancaria {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in); 

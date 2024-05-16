@@ -1,5 +1,5 @@
+// Projeto funcional - 1 / 5 - Operações Bancárias Simples com Switch
 import java.util.Scanner;
-// Projeto funcional
 public class SimulacaoBancaria {
 
     public static void main(String[] args) {
