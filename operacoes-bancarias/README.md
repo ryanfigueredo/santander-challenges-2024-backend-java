@@ -1,18 +1,33 @@
-## Getting Started
+## 1 / 5 - Operações Bancárias Simples com Switch
+Você está desenvolvendo um programa simples em Java para simular operações bancárias básicas. A aplicação deve permitir ao usuário realizar depósitos, saques e consultar o saldo em uma conta bancária virtual.
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+> Entrada
+O programa exibirá um menu com as seguintes opções:
 
-## Folder Structure
+> Depositar<br />
+> Sacar, Consultar Saldo, Encerrar.<br />
+> O usuário escolherá uma dessas opções digitando o número correspondente.
 
-The workspace contains two folders by default, where:
+> Saída
+Utilizando um switch, o programa realizará a operação escolhida pelo usuário.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+> Se o usuário escolher:
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+1: O programa solicitará o valor a ser depositado e atualizará o saldo.<br />
+2: O programa solicitará o valor a ser sacado e verificará se há saldo suficiente.<br />
+3: O programa exibirá o saldo atual da conta.<br />
+0: O programa encerrará.<br />
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+-----
 
-## Dependency Management
+## 2 / 5 - Verificação de Número de Conta Bancária
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+> Você está desenvolvendo um programa simples em Java para verificar se um número de conta bancária é válido. O número da conta deve ter exatamente 8 dígitos.
+
+> Entrada
+O programa solicitará ao usuário que digite o número da conta bancária.
+
+> Saída
+1. O programa utilizará um bloco try-catch para verificar se o número da conta possui exatamente 8 dígitos. <br />
+2. Se o número da conta tiver 8 dígitos, o programa informará que é um número válido. <br />
+3. Se o número da conta não tiver 8 dígitos, o programa lançará uma exceção (por exemplo, IllegalArgumentException) e  informará que o número da conta é inválido.
